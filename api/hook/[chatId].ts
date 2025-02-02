@@ -20,7 +20,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         return
     }
 
-    let markdown = `<b>${request.title}</b><br>${request.content}<br><a href="${request.url}">查看详情</a>`
+    let markdown = `<b>${request.title}</b>\n${request.content}\n<a href="${request.url}">查看详情</a>`
     await bot.api.sendMessage(chatId, markdown, { parse_mode: "HTML" })
 
     res.json({
