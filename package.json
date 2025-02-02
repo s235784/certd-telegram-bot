@@ -1,11 +1,11 @@
 {
   "name": "certd-telegram-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A telegram bot for certd using webhook",
   "type": "module",
   "scripts": {},
   "author": "NuoTian",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "grammy": "^1.34.1"
   },

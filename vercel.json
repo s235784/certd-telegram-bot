@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/s235784/certd-telegram-bot",
+      "permanent": true
+    }
+  ]
+}
