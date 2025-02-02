@@ -3,7 +3,7 @@ import { Bot, InlineKeyboard, webhookCallback } from 'grammy'
 
 const { BOT_TOKEN, BOT_URL } = process.env
 
-export const bot = new Bot(BOT_TOKEN)
+const bot = new Bot(BOT_TOKEN)
 
 bot.command('start', async (ctx) => {
     await ctx.reply('Welcome to use Certd Bot')
