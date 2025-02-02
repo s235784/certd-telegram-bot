@@ -18,4 +18,6 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     res.json({
         msg: 'done'
     })
+
+    console.log(`Sent: ${text}`)
 }
