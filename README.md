@@ -39,3 +39,9 @@
 
 6. 使用[该工具](https://telegram.tools/webhook-manager#)修改机器人的 Webhook 地址，格式为`https://$BOT_URL/api/bot`
 6. 在 Certd 中测试该机器人
+
+# 感谢
+
+- [ddns-telegram-bot](https://github.com/WingLim/ddns-telegram-bot)
+- [grammY](https://grammy.dev/)
+- [Vercel](https://vercel.com/)
